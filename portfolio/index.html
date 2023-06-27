@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+</head>
+
+<body data-bas-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <img src="images/logo.png" class="img-fluid" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 order-lg-1 order-2 banner-content">
+                    <h2 class="text-uppercase position-relative">Hello</h2>
+                    <h1 class="text-uppercase">I am Abhiraj Ram</h1>
+                    <h5 class="text-uppercase">Frontend Developer</h5>
+                    <div class="mt-5">
+                        <a href="#" class="main-btn primary-btn" onclick="sendEmail()">Hire Me</a>
+                        <a href="https://drive.google.com/file/d/1-WGGhsvX1-6wBICVMv_1j_YCNzdD1RNh/view?usp=sharing"
+                            target="_blank" class="main-btn secondary-btn ms-4">Get CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 order-lg-2 order-1">
+                    <div class="top-right-img">
+                        <img src="images/home-right.webp" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Banner section exit -->
+    <!-- About Section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <img src="images/about-us.webp" class="img-fluid" alt="about us">
+                </div>
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <h3>let's <br>Introduce about <br> myself</h3>
+                    <p>Hello! I'm Abhiraj Ram, a passionate Frontend Developer. Currently pursuing my
+                        Bachelor's degree in Computer Science at the prestigious Indian Institute of Information
+                        Technology Design and Manufacturing (IIITDM) Jabalpur, I am eager to make a positive impact in
+                        the world of web development.</p>
+                    <p>With a keen interest in crafting intuitive user interfaces and seamless user experiences, I
+                        specialize in frontend technologies such as HTML, CSS, Bootstrap and JavaScript. Through my
+                        academic
+                        coursework and personal projects, I have gained proficiency in building responsive and visually
+                        appealing websites that meet modern design standards.</p>
+                    <a href="https://drive.google.com/file/d/1-WGGhsvX1-6wBICVMv_1j_YCNzdD1RNh/view?usp=sharing"
+                        target="_blank" class="main-btn primary-btn mt-4">Download CV</a>
+                </div>
+            </div>
+            <!-- <div class="row justify-content-center pt-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="row">
+                        <div class="col-md-4 cp;-sm-6 mb-4">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo1.webp" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-4 cp;-sm-6 mb-4">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo2.webp" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-4 cp;-sm-6 mb-4">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo3.webp" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-4 cp;-sm-6 mb-4">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo4.webp" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-4 cp;-sm-6 mb-4">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo5.webp" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-4 cp;-sm-6 mb-4">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo6.webp" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-4 cp;-sm-6 mb-4">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo7.webp" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-4 cp;-sm-6 mb-4">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo8.webp" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-4 cp;-sm-6 mb-4">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo9.webp" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-lg-2 col-lg-4 col-md-10">
+                    <div class="client-info">
+                        <div class="d-flex">
+                            <span class="large">10</span>
+                            <span class="smll">Years <br>Experience <br>Working</span>
+                        </div>
+                        <div class="call-now d-flex py-4">
+                            <div>
+                                <span class="fa fa-phone-alt"></span>
+                            </div>
+                            <div class="ms-4">
+                                <p>Call us now</p>
+                                <h5>(+91)-7208256639</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!-- About section Exit -->
+    <!-- Services section -->
+    <section id="services " class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <h2>SKILLS</h2>
+                    <p>Proficient in a range of technologies and tools, I possess the expertise to deliver high-quality
+                        solutions that meet client requirements
+                        <br class="d-none d-lg-block">
+                        and drive success in the ever-evolving digital landscape.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="images/services-img/mouse.webp" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">Frontend Development</h5>
+                        <p> I specialize in frontend technologies such as HTML, CSS, Bootstrap and JavaScript.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="images/services-img/ui-ux.webp" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">Programming and Databases</h5>
+                        <p>Proficient in C++, Python, MySQL and MongoDB. <br> Solved 400+ Questions on Leetcode.</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="images/services-img/website.webp" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">Testing</h5>
+                        <p>Worked under CSE HOD and done manual testing of Institute's Website Fusion handling all the
+                            student activities.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="images/services-img/seo.webp" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">Soft Skills</h5>
+                        <p>problem solving, Strategic-thinking, Analytic mindset, leadership And Management Quality</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services section exit -->
+    <!-- Portfolio section -->
+    <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-left mb-md-5 mb-2">
+                    <h2>QUALITY WORK <br> RECENTLY DONE PROJECTS</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center">
+                    <div class="card mx-3" style=" margin-bottom: 2rem;">
+                        <img src="images/portfolio/project1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex justify-content-center ">Mess Management System</h5>
+                            <p class="card-text">Our innovative Mess Management System provides a seamless experience
+                                for both admins and students. With separate interfaces for admins and students, it
+                                offers a range of features to enhance efficiency and convenience. Admins can
+                                effortlessly change menus, view upcoming menus, mark attendance, manage feedback, and
+                                more. Students, on the other hand, can conveniently view the menu, provide feedback, and
+                                stay informed.</p>
+                            <div class="row">
+                                <h5 class="d-flex justify-content-center">Stack</h5>
+                                <ul style="list-style-type: none; margin-top: -1rem;"
+                                    class="d-flex justify-content-center">
+                                    <li class="stack">Html</li>
+                                    <li class="stack">Css</li>
+                                    <li class="stack">Bootstrap</li>
+                                    <li class="stack">Javascript</li>
+                                    <li class="stack">Php</li>
+                                    <li class="stack">MySQL</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="main-btn primary-btn">Visit</a>
+                            <a href="#" class="main-btn secondary-btn">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center">
+                    <div class="card mx-3 " style=" margin-bottom: 2rem;">
+                        <img src="images/portfolio/project2.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex justify-content-center">Chat system</h5>
+                            <p class="card-text">Developed a dynamic and interactive chat room application, facilitating
+                                real-time communication and collaboration among users. Leveraging web technologies, the
+                                project enables seamless joining of chat rooms and engaging in live conversations..</p>
+                            <div class="row">
+                                <h5 class="d-flex justify-content-center">Stack</h5>
+                                <ul style="list-style-type: none; margin-top: -1rem;"
+                                    class="d-flex justify-content-center">
+                                    <li class="stack">Html</li>
+                                    <li class="stack">Css</li>
+                                    <li class="stack">Bootstrap</li>
+                                    <li class="stack">Express</li>
+                                    <li class="stack">Sockets</li>
+                                    <li class="stack">Redis</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="main-btn primary-btn">Visit</a>
+                            <a href="#" class="main-btn secondary-btn">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mx-3" style="margin-bottom: 2rem;">
+                        <img src="images/portfolio/project3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex justify-content-center">Weather App</h5>
+                            <p class="card-text">Your all-in-one weather app with OpenWeatherMap API integration and a
+                                dynamic JavaScript map interface. Get real-time weather data, including temperature,
+                                humidity, and wind speed for any location. Incorporated a feature for selecting the location using map.
+                            </p>
+                            <div class="row">
+                                <h5 class="d-flex justify-content-center">Stack</h5>
+                                <ul style="list-style-type: none; margin-top: -1rem;"
+                                    class="d-flex justify-content-center">
+                                    <li class="stack">Html</li>
+                                    <li class="stack">Css</li>
+                                    <li class="stack">Javascript</li>
+                                    <li class="stack">API</li>
+                                    <li class="stack">Bootstrap</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="main-btn primary-btn">Visit</a>
+                            <a href="#" class="main-btn secondary-btn">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio section exit -->
+    <!-- Blog section -->
+    <section id="blog" class="blog_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <h2>ACHIEVEMENTS</h2>
+                    <p>Consistently demonstrated a proactive and results-driven approach, accomplishing impactful
+                        outcomes through problem-solving, teamwork, and a commitment <br class="d-none d-lg-block">
+                        to excellence. Recognized for achieving commendable results across diverse areas.</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 bordered-0 p-0">
+                        <img src="images/blog/blog.webp" class="img-fluid" alt="blog">
+                        <div class="blog_details">
+                            <div class="blog_text text-center">
+                                <h5 class="text-white mb-0">Leetcode</h5>
+                                <div class="border_line"></div>
+                                <p class="text-white">Solved 400+ DSA Questions on Leetcode</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 bordered-0 p-0">
+                        <img src="images/blog/blog1.webp" class="img-fluid" alt="blog">
+                        <div class="blog_details">
+                            <div class="blog_text text-center">
+                                <h5 class="text-white mb-0">Badminton</h5>
+                                <div class="border_line"></div>
+                                <p class="text-white">Badminton Club Coordinator. <br>Two times Regionalist.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 bordered-0 p-0">
+                        <img src="images/blog/blog2.webp" class="img-fluid" alt="blog">
+                        <div class="blog_details">
+                            <div class="blog_text text-center">
+                                <h5 class="text-white mb-0">Rating</h5>
+                                <div class="border_line"></div>
+                                <p class="text-white">1623 Max Rating on Leetcode platform.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 bordered-0 p-0">
+                        <img src="images/blog/blog.webp" class="img-fluid" alt="blog">
+                        <div class="blog_details">
+                            <div class="blog_text text-center">
+                                <h5 class="text-white mb-0">Football </h5>
+                                <div class="border_line"></div>
+                                <p class="text-white">Under-14 Football Nationals in 2014.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section exit -->
+    <!-- contact section  -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 newsletter text-center px-4">
+                    <h3 class="text-white">GET IN TOUCH</h3>
+                    <p class="text-white">I'm excited to connect and discuss opportunities. Feel free to send me a
+                        direct message, and let's start a conversation</p>
+                    <form class="row g-3 justify-content-center mt-4">
+                        <div class="col col-sm-6 col-lg-4">
+                            <input type="text" class="form-control" placeholder="Message">
+                        </div>
+                        <div class="col col-auto">
+                            <button type="submit" class="main-btn secondary-btn border-white mb-3">Get started</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img src="images/logo.png" class="img-fluid" alt="footer-logo">
+                    </div>
+                    <div class="my-4 social-icons">
+                        <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fab fa-github"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <p class="footer-text text-center my-2">Copyright 2023 All rights reserved | This template is made
+                        with <i class="far fa-heart"></i> by <a href="#">Abhiraj Ram</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
